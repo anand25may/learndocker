@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '28ca962e-aad9-40d5-b304-61454fe84509'
   imageRepository: 'anandmaylearndocker'
-  containerRegistry: 'learnacr13.azurecr.io'
+  containerRegistry: 'learnacr121.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/myPythonDockerRepo-master/myPythonDockerRepo-master/Dockerfile'
   tag: '$(Build.BuildId)'
 
